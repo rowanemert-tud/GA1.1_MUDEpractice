@@ -24,3 +24,19 @@ It may fail if the values cannot be added using the `+` operator.
 subtract(5, 2)
 add(2, 3)
 ```
+
+#### Sum list function
+
+The `sum_list(values)` function adds all values in a list together.
+
+It works by repeatedly calling the existing `add(a, b)` function.
+
+### Example
+
+```python
+sum_list([1, 2, 3])
+```
+
+This returns 6.
+
+It may fail if the values in the list cannot be added together.
